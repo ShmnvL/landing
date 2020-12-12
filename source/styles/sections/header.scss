@@ -1,0 +1,45 @@
+header {
+  background-image:  url("../../images/Layer 6.png");
+  background-size: 100%;
+  height: 1086px;
+
+}
+.header__bottom {
+  background-image: url("../../images/Layer 5.png");
+  background-size: 100%;
+  height: 654px;
+  width: 1198px;
+}
+.logo{
+  font-family: $ff-main-bold;
+  font-size: 202px;
+  letter-spacing: -10px;
+  padding-top: 114px;
+  margin-bottom: -0.1em;
+
+}
+
+.text {
+  font-size: 18px;
+
+  &__white--yellow {
+    color: white;
+  }
+
+  &__white--yellow:first-letter{
+    color: #ffc600;
+  }
+
+  &__yellow{
+    color: #ffc600;
+  }
+}
+
+.heading {
+  font-size: 60px;
+  font-family: $ff-main-bold;
+  line-height: 48px;
+  letter-spacing: -3px;
+  margin-left: 48px;
+  padding-top: 70px;
+}

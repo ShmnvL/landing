@@ -1,0 +1,23 @@
+.nav {
+  display: inline-block;
+  vert-align: top;
+  padding-top: 60px;
+
+  &__link {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    margin-left: 48px;
+    color: #ffc600;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover,
+    &--active {
+      color: white;
+      text-decoration: underline #ffc600;
+    }
+  }
+
+
+}
