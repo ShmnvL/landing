@@ -4,15 +4,16 @@ header.header
         .contaner
             .logo.text__white--yellow Sublime
             .Sublimemin.text__white--yellow Sublime: A one page responsive wordpress theme #[br] suitable for any kind of business representation
-            p.text__yellow Download the psd.
+            p.Sublimemin.text__yellow Download the psd.
 
-    .contaner
+
         .header__bottom
-            .heading.text__white--yellow We create #[br] Awesome Games
-            nan.nav
-                - var items = ['About','Development','Projects','Blog']
-                    each item in items
-                        if item === 'Development'
-                            a.nav__link.nav__link--active(href="#")= item
-                        else
-                            a.nav__link(href="#")= item
+            .contaner
+                .heading.text__white--yellow We create #[br] Awesome Games
+                nan.nav
+                    - var items = ['About','Development','Projects','Blog']
+                        each item in items
+                            if item === 'Development'
+                                a.nav__link.nav__link--active(href="#")= item
+                            else
+                                a.nav__link(href="#")= item

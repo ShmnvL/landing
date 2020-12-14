@@ -1,22 +1,21 @@
 header {
-  background-image:  url("../../images/Layer 6.png");
+  background:  url("../../images/Layer 2.png") no-repeat;
   background-size: 100%;
-  height: 1086px;
-
+  height: auto;
 }
 .header__bottom {
-  background-image: url("../../images/Layer 5.png");
-  background-size: 100%;
-  height: 654px;
-  width: 1198px;
+  background: url("../../images/Layer 5.png") center/cover no-repeat;
+  margin-left: 102px;
+  margin-right: 100px;
+  height: 1080px;
 }
 .logo{
   font-family: $ff-main-bold;
   font-size: 202px;
   letter-spacing: -10px;
-  padding-top: 114px;
+  padding-top: 85px;
   margin-bottom: -0.1em;
-
+  //margin-left: 130px;
 }
 
 .text {
@@ -40,6 +39,9 @@ header {
   font-family: $ff-main-bold;
   line-height: 48px;
   letter-spacing: -3px;
-  margin-left: 48px;
   padding-top: 70px;
+}
+
+.Sublimemin {
+  //margin-left: 130px;
 }
