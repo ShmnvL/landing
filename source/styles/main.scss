@@ -5,8 +5,10 @@
 @import "global/vars";
 @import "global/base";
 @import "global/common";
-@import "global/sprites";
+@import "global/sprite";
+@import "global/mixin";
 
 
 @import "sections/header";
 @import "sections/nav";
+@import "sections/about";
