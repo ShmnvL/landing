@@ -4,7 +4,6 @@ const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf');
-const watch = require('gulp-watch');
 const rename = require("gulp-rename");
 
 /* ------- Server ------- */

@@ -1,1 +1,26 @@
-footer
+footer.footer
+    .footer__left
+        .contaner
+            .title__header.footer__title Sublime
+
+            nan.fnav
+                - var items = ['HOME','ABOUT SUBLIME','OUR WORKS','SERVICES', 'TEAM', 'TESTIMONIALS', 'BLOG', 'CLIENTS', 'CONTACT US']
+                each item in items
+                    if item === 'HOME'
+                        a.fnav__link.fnav__link--active(href="#")= item
+                    else
+                        a.fnav__link(href="#")= item
+
+            .footer__social
+                a.footer__social--icon(href="#")
+                    img(src="../../images/icons/Layer 49.png")
+                a.footer__social--icon(href="#")
+                    img(src="../../images/icons/Layer 50.png")
+                a.footer__social--icon(href="#")
+                    img(src="../../images/icons/Layer 51.png")
+
+    .footer__right
+        .contaner
+            .footer__create
+                span.text__yellow We
+                span  create #[br] Awesome Games
